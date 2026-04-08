@@ -1,26 +1,22 @@
 # Hey there 👋
 
-I'm Payton. I'm a Full Stack Developer who enjoys building things, learning new tech, and creating useful applications.
+I'm Payton. I'm a Software Engineer with experience with building customer-facing production applications with millions of daily requests. I specialize in backend development, distributed systems, and real-time data pipelines
 
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,nodejs,express,html,css,mongodb,react,java,github,postgres,nextjs,tailwind)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,express,react,nextjs,mongodb,postgres,redis,kafka,docker,tailwind,html,css,github)](https://skillicons.dev)
 
-# Current Personal Projects
+# Recent Personal Projects
 
-### F1 Race Data Visualizer
-October 2025
+EventStream — Real-Time Event Analytics Platform
 
-Visualizes historical Formula One Race Data via Dataframe manipulation and React Recharts.
+_March – April 2026 · Java · Spring Boot · Kafka · Redis · MongoDB · Docker_
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,py,fastapi)](https://skillicons.dev)
+Real-time event ingestion and analytics platform that captures user behavior events, streams them through Kafka with retry and DLQ support, persists them to MongoDB, and tracks live analytics using a Redis sliding window algorithm.
 
-### Real-Time Collaborative File Editor
-November 2025
-
-Multi-user web editor with live updates and comment support, powered by WebSockets and MDX.
-
-[![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,postgres,nextjs,tailwind)](https://skillicons.dev)
-
+Funnel analysis tracking drop off rates across the full purchase journey
+Top 5 most viewed products and most frequent event types
+Real-time event counts per user and globally over a sliding 10-minute window
+Dockerized infrastructure with Kafka, Kafka UI, MongoDB, and Redis
 <!--
 **Pay10-VA/Pay10-VA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
