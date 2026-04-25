@@ -29,5 +29,5 @@ top products, per-user event counts, and real-time activity.
 
 ---
 
-### Foreman - Distributed Job Scheduler
+### Foreman — Distributed Job Scheduler
 *April 2026 – Present · Java · Spring Boot · Kafka · Redis · PostgreSQL · Docker · Prometheus · Grafana*
