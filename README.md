@@ -17,7 +17,7 @@ live collaborator presence, comments, and file management using Socket.IO.
 ---
 
 ### EventStream — Real-Time Event Analytics Platform
-*March – April 2026 · Java · Spring Boot · Kafka · Redis · MongoDB · Docker · Python*
+*March – April 2026 · Java · Spring Boot · Kafka · Redis · MongoDB · Docker · Model Context Protocol (MCP) · Python*
 
 Real-time event ingestion and analytics platform that captures user behavior events, 
 streams them through Kafka with retry and DLQ support, and persists them to MongoDB. 
