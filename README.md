@@ -3,11 +3,18 @@ I'm Payton — a Software Engineer with experience building customer-facing
 production applications with millions of daily requests. I specialize in 
 backend development, distributed systems, and real-time data pipelines.
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,express,react,nextjs,mongodb,postgres,redis,kafka,docker,tailwind,html,css,github,python)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,express,aws,react,nextjs,mongodb,postgres,redis,kafka,docker,tailwind,html,css,github,python)](https://skillicons.dev)
+
+<br/>
+
+![](https://img.shields.io/badge/Role-Software_Engineer-blue)
+![](https://img.shields.io/badge/Learning-AWS_SAA-FF9900?logo=amazonaws&logoColor=white)
+![](https://img.shields.io/badge/Coding-Zero_Trust_API_Gateway-6366f1)
+![](https://img.shields.io/badge/Coding-Production_Readiness_Claude_Skill-6366f1)
 
 ## 🛠 Recent Projects
 
-### CoDoc — Real-Time Collaborative Document Editor
+### CoDoc | Real-Time Collaborative Document Editor
 *October – November 2025 · TypeScript · Node.js · Express · Next.js · Tailwind CSS · PostgreSQL*
 
 Full-stack collaborative document editor with conflict-free simultaneous editing 
@@ -16,7 +23,7 @@ live collaborator presence, comments, and file management using Socket.IO.
 
 ---
 
-### EventStream — Real-Time Event Analytics Platform
+### EventStream | Real-Time Event Analytics Platform
 *March – April 2026 · Java · Spring Boot · Kafka · Redis · MongoDB · Docker · Model Context Protocol (MCP) · Python*
 
 Real-time event ingestion and analytics platform that captures user behavior events, 
@@ -29,9 +36,23 @@ top products, per-user event counts, and real-time activity.
 
 ---
 
-### Foreman — Distributed Job Scheduler
+### Production Readiness Skill — Claude
+*May 2026 · Claude · Prompt Engineering*
+
+Currently in progress
+
+---
+
+### Foreman | Distributed Job Scheduler
 *April – May 2026 · Java · Spring Boot · Kafka · PostgreSQL · Docker · Prometheus · Grafana*
 
 Distributed job scheduler that accepts immediate, scheduled, and cron jobs via REST API and executes them by firing webhooks at the configured time. Built across three decoupled services: submission, scheduling, and execution.
 
 Key engineering decisions: concurrent job claiming via `FOR UPDATE SKIP LOCKED`, per-job transaction isolation using `REQUIRES_NEW` propagation, at-least-once Kafka delivery with idempotency checks to minimize duplicate execution, and retry with exponential backoff and dead-letter routing. Full observability across all three services with Prometheus metrics and Grafana dashboards.
+
+---
+
+### Zero Pass | Zero Trust API Gateway
+*May 2026 - Present (In Progress) · Java · Spring Boot · Python · gRPC · Kafka · Redis · PostgreSQL · Docker · Kubernetes · Terraform · Prometheus · Grafana · Next.js · TypeScript*
+
+Currently in progress.
