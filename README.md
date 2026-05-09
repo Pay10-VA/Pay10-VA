@@ -30,4 +30,8 @@ top products, per-user event counts, and real-time activity.
 ---
 
 ### Foreman — Distributed Job Scheduler
-*April 2026 – Present · Java · Spring Boot · Kafka · Redis · PostgreSQL · Docker · Prometheus · Grafana*
+*April – May 2026 · Java · Spring Boot · Kafka · PostgreSQL · Docker · Prometheus · Grafana*
+
+Distributed job scheduler that accepts immediate, scheduled, and cron jobs via REST API and executes them by firing webhooks at the configured time. Built across three decoupled services: submission, scheduling, and execution.
+
+Key engineering decisions: concurrent job claiming via `FOR UPDATE SKIP LOCKED`, per-job transaction isolation using `REQUIRES_NEW` propagation, at-least-once Kafka delivery with idempotency checks to minimize duplicate execution, and retry with exponential backoff and dead-letter routing. Full observability across all three services with Prometheus metrics and Grafana dashboards.
