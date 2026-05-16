@@ -10,7 +10,6 @@ backend development, distributed systems, and real-time data pipelines.
 ![](https://img.shields.io/badge/Role-Software_Engineer-blue)
 ![](https://img.shields.io/badge/Learning-AWS_SAA-FF9900?logo=amazonaws&logoColor=white)
 ![](https://img.shields.io/badge/Coding-Zero_Trust_API_Gateway-6366f1)
-![](https://img.shields.io/badge/Coding-Production_Readiness_Claude_Skill-6366f1)
 
 ## 🛠 Recent Projects
 
@@ -36,10 +35,10 @@ top products, per-user event counts, and real-time activity.
 
 ---
 
-### Production Readiness Skill — Claude
-*May 2026 · Claude · Prompt Engineering*
+### Production Readiness Skill — Claude (Internal Tool)
+*May 2026 · Claude · Prompt Engineering · MCP · Process Automation*
 
-Currently in progress
+Created a Claude Skill that automates production readiness reviews for first-release applications by performing a static source code analysis to surface missing patterns and querying the Confluence MCP server to verify required documentation to generate a pass/fail checklist with per-item findings.  It also uses the Atlassian MCP server to automatically create Jira stories to address said gaps.
 
 ---
 
